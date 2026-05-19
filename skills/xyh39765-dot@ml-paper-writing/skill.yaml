@@ -1,0 +1,24 @@
+id: xyh39765-dot@ml-paper-writing
+name: ml-paper-writing
+display_name: ML论文写作
+version: 1.0.0
+author:
+  github: xyh39765-dot
+description: 撰写面向NeurIPS、ICML、ICLR、ACL、AAAI、COLM等顶级会议的ML/AI论文 - 包含LaTeX模板、引文验证工作流、论文发现与评估标准、写作哲学指导。原始出处：https://github.com/Galaxy-Dawn/claude-scholar
+tags:
+  - ML
+  - paper
+  - writing
+  - LaTeX
+  - NeurIPS
+  - ICML
+  - ICLR
+  - academic
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: a5e359641c92659e479659236327c7c477555c3103e161f39afd394129559890
+updated_at: ""
