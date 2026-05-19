@@ -1,0 +1,21 @@
+id: Q1ngsong@phd-mentor
+name: phd-mentor
+display_name: 博士生导师
+version: 1.0.0
+author:
+  github: Q1ngsong
+description: 面向博士生、研究生、博士后和早期科研人员的综合指导 Skill，覆盖选题、文献、执行、发表、压力韧性和职业规划。
+tags:
+  - phd
+  - mentor
+  - research
+  - career
+  - graduate-school
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: 329e7a2d27664fc48e3bdef1a87cf1b878f404be024c294b8fc650bdc509445b
+updated_at: "2026-05-19"

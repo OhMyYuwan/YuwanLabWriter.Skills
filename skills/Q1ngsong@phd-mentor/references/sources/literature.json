@@ -1,0 +1,21 @@
+{
+  "source_path_format": "github:research-method/... denotes a provenance pointer to original source files in the GitHub project; raw sources are not bundled for runtime.",
+  "primary_sources": [
+    {
+      "path": "github:research-method/how to think/沈向洋、华刚：读科研论文的三个层次、四个阶段与十个问题 - 知乎.pdf",
+      "used_for": ["three reading depths", "four reader stages", "ten questions"]
+    },
+    {
+      "path": "github:research-method/how to search/沈向洋、华刚：读科研论文的三个层次、四个阶段与十个问题 - 知乎.pdf",
+      "used_for": ["duplicate searchable source for paper-reading protocol"]
+    },
+    {
+      "path": "github:research-method/how to think/博士生如何做科研.pdf",
+      "used_for": ["tracking journals, conferences, teams, and experts", "problem-driven reading"]
+    },
+    {
+      "path": "github:research-method/how to search/利用Web of Science数据库助力科学研究.ppt",
+      "used_for": ["literature search workflow", "citation-based discovery"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source_path_format": "github:research-method/... denotes a provenance pointer to original source files in the GitHub project; raw sources are not bundled for runtime.",
+  "primary_sources": [
+    {
+      "path": "github:research-method/how to think/211高校副校长：我们的未来在哪里？值得每一位研究生读一读.pdf",
+      "used_for": ["career path families", "from excellent to outstanding", "active learning and literature depth", "life beyond papers"]
+    },
+    {
+      "path": "github:research-method/how to think/王光辉_出国留学申请总结.pdf",
+      "used_for": ["CSC-style process example", "contacting overseas supervisors", "application workstreams"]
+    },
+    {
+      "path": "github:research-method/how to think/2021年度计算机科学学科基金项目申请资助情况及展望.pdf",
+      "used_for": ["funding landscape as historical reference", "originality and cross-disciplinary scarcity"]
+    },
+    {
+      "path": "github:research-method/how to think/Resources on Academia.pdf",
+      "used_for": ["academic career resource map"]
+    }
+  ],
+  "current-policy_warning": "Do not use 2016 CSC or 2021 funding details as current policy without verification."
+}

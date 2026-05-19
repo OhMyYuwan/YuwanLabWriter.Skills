@@ -1,0 +1,38 @@
+{
+  "ideation": {
+    "dimension": "problem finding",
+    "trigger_signals": ["没方向", "找不到 idea", "选题", "问题值不值得做", "老板给的题做不下去", "换方向"],
+    "core_tool": "topic -> research question -> falsifiable claim",
+    "source_examples": ["Hu Xiaofeng five false problems", "Zhiyun Qian idea paradigms", "Huo Qiang why/impact/excellence/passion"]
+  },
+  "literature": {
+    "dimension": "literature mastery",
+    "trigger_signals": ["论文太多", "读不懂", "综述", "related work", "领域地图", "经典论文"],
+    "core_tool": "screening / reading / studying + Hua Gang ten questions",
+    "source_examples": ["Shen Xiangyang three levels", "Hua Gang four stages and ten questions"]
+  },
+  "execution": {
+    "dimension": "research execution",
+    "trigger_signals": ["实验卡住", "debug", "代码跑不通", "时间管理", "组会", "合作", "导师沟通"],
+    "core_tool": "blocker diagnosis: tool/environment, wrong assumption, vague success criterion, psychological resistance",
+    "source_examples": ["Wang Junfeng research process", "Pang Tianyu timely stop-loss", "experiment-record guidance"]
+  },
+  "publication": {
+    "dimension": "publication",
+    "trigger_signals": ["写论文", "投稿", "被拒", "cover letter", "rebuttal", "response letter", "选刊", "毕业论文"],
+    "core_tool": "story arc + reader surfaces + section-specific revision",
+    "source_examples": ["Robert Day IMRaD", "Simon Peyton Jones story-first writing", "top journal editor filters"]
+  },
+  "resilience": {
+    "dimension": "resilience",
+    "trigger_signals": ["焦虑", "抑郁", "想退学", "自我怀疑", "导师PUA", "比较心", "孤独", "撑不下去"],
+    "core_tool": "acknowledge emotion before method; distinguish crisis, structural issue, and ordinary doctoral uncertainty",
+    "source_examples": ["Xu Tian independent scientist framing", "Pang Tianyu positive feedback and timely stop-loss", "Lucy Taylor 20 points"]
+  },
+  "career": {
+    "dimension": "career planning",
+    "trigger_signals": ["毕业去向", "博士后", "教职", "工业界", "出国", "基金", "独立方向", "职业规划"],
+    "core_tool": "reverse planning from target next step to present evidence and skills",
+    "source_examples": ["Yan Jianbing four paths", "Wang Guanghui CSC process", "F02 funding landscape"]
+  }
+}

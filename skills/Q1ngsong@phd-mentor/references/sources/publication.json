@@ -1,0 +1,25 @@
+{
+  "source_path_format": "github:research-method/... denotes a provenance pointer to original source files in the GitHub project; raw sources are not bundled for runtime.",
+  "primary_sources": [
+    {
+      "path": "github:research-method/how to write/How to write a great research paper.pdf",
+      "used_for": ["writing as research", "story-first drafting", "paper communicates ideas"]
+    },
+    {
+      "path": "github:research-method/how to write/science-of-writing.pdf",
+      "used_for": ["reader expectations", "subject-verb distance", "stress position", "clarity without oversimplification"]
+    },
+    {
+      "path": "github:research-method/how to write/北京大学施柏鑫：从审稿人视角，谈谈怎么写一篇CVPR论文.pdf",
+      "used_for": ["reviewer perspective", "deadline process", "first-impression surfaces", "conference workflow"]
+    },
+    {
+      "path": "github:research-method/how to think/How to Write and Publish a Scientific Paper.pdf",
+      "used_for": ["IMRaD section expectations", "title and abstract principles"]
+    },
+    {
+      "path": "github:research-method/how to think/如何在顶级科学杂志上发表论文.pdf",
+      "used_for": ["top-journal editor filters", "significance, broad interest, surprise, newsworthiness"]
+    }
+  ]
+}

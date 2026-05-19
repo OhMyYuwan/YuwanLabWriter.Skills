@@ -20,7 +20,73 @@
       "skill_url": "skills/OhMyYuwan@annotation-training-csv/skill.yaml",
       "entry_url": "skills/OhMyYuwan@annotation-training-csv/SKILL.md",
       "readme_url": "skills/OhMyYuwan@annotation-training-csv/README.md",
-      "checksum_sha256": "8c6e428be5109ec9fb296b75d9543093bdcc843d0e2ceae8dc4f829a3085dfbb"
+      "checksum_sha256": "064bccb7d5e155a5300c99c41b905735260a861ed8b384d167f6e9605ce8d289"
+    },
+    {
+      "id": "Q1ngsong@paper-revise",
+      "name": "paper-revise",
+      "display_name": "论文返修",
+      "version": "1.0.0",
+      "author_github": "Q1ngsong",
+      "description": "面向审稿意见、meta-review 和编辑决定的论文返修工作流，帮助制定 rebuttal 策略、逐条回复和稿件修改计划。",
+      "tags": [
+        "paper",
+        "revision",
+        "rebuttal",
+        "response-letter",
+        "academic"
+      ],
+      "license": "MIT",
+      "path": "skills/Q1ngsong@paper-revise",
+      "entry": "SKILL.md",
+      "skill_url": "skills/Q1ngsong@paper-revise/skill.yaml",
+      "entry_url": "skills/Q1ngsong@paper-revise/SKILL.md",
+      "readme_url": "skills/Q1ngsong@paper-revise/README.md",
+      "checksum_sha256": "b2b5b4f4472e91a88e54f2d00e53bab01f079f2fe952668531a9be7f6214db5f"
+    },
+    {
+      "id": "Q1ngsong@phd-mentor",
+      "name": "phd-mentor",
+      "display_name": "博士生导师",
+      "version": "1.0.0",
+      "author_github": "Q1ngsong",
+      "description": "面向博士生、研究生、博士后和早期科研人员的综合指导 Skill，覆盖选题、文献、执行、发表、压力韧性和职业规划。",
+      "tags": [
+        "phd",
+        "mentor",
+        "research",
+        "career",
+        "graduate-school"
+      ],
+      "license": "MIT",
+      "path": "skills/Q1ngsong@phd-mentor",
+      "entry": "SKILL.md",
+      "skill_url": "skills/Q1ngsong@phd-mentor/skill.yaml",
+      "entry_url": "skills/Q1ngsong@phd-mentor/SKILL.md",
+      "readme_url": "skills/Q1ngsong@phd-mentor/README.md",
+      "checksum_sha256": "329e7a2d27664fc48e3bdef1a87cf1b878f404be024c294b8fc650bdc509445b"
+    },
+    {
+      "id": "Q1ngsong@scientific-writing",
+      "name": "scientific-writing",
+      "display_name": "科学写作",
+      "version": "1.0.0",
+      "author_github": "Q1ngsong",
+      "description": "面向科学论文和科研文本的写作与润色 Skill，覆盖结构诊断、段落组织、句子清晰度、摘要标题和图注等关键表面。",
+      "tags": [
+        "scientific-writing",
+        "academic",
+        "manuscript",
+        "revision",
+        "clarity"
+      ],
+      "license": "MIT",
+      "path": "skills/Q1ngsong@scientific-writing",
+      "entry": "SKILL.md",
+      "skill_url": "skills/Q1ngsong@scientific-writing/skill.yaml",
+      "entry_url": "skills/Q1ngsong@scientific-writing/SKILL.md",
+      "readme_url": "skills/Q1ngsong@scientific-writing/README.md",
+      "checksum_sha256": "5bf04581ce34e61a8f9492f38c831af3558c684a7def693896084f5477bd69dc"
     },
     {
       "id": "xyh39765-dot@literature-search",

@@ -1,0 +1,21 @@
+{
+  "source_path_format": "github:research-method/... denotes a provenance pointer to original source files in the GitHub project; raw sources are not bundled for runtime.",
+  "primary_sources": [
+    {
+      "path": "github:research-method/how to write/science-of-writing.pdf",
+      "used_for": ["reader expectations", "subject-verb separation", "stress position", "context before new information"]
+    },
+    {
+      "path": "github:research-method/how to write/How to write a great research paper.pdf",
+      "used_for": ["writing as part of research", "papers communicate ideas", "draft story before all work is finished"]
+    },
+    {
+      "path": "github:research-method/how to write/Stanford-科学写作课件/",
+      "used_for": ["cut clutter", "verbs", "punctuation", "paragraphs", "writing process", "ethics", "peer review"]
+    },
+    {
+      "path": "github:research-method/how to write/Science Research Writing A Guide for Non-Native Speakers of English.pdf",
+      "used_for": ["section patterns", "non-native writer support"]
+    }
+  ]
+}

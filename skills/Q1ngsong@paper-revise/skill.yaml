@@ -1,0 +1,21 @@
+id: Q1ngsong@paper-revise
+name: paper-revise
+display_name: 论文返修
+version: 1.0.0
+author:
+  github: Q1ngsong
+description: 面向审稿意见、meta-review 和编辑决定的论文返修工作流，帮助制定 rebuttal 策略、逐条回复和稿件修改计划。
+tags:
+  - paper
+  - revision
+  - rebuttal
+  - response-letter
+  - academic
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: b2b5b4f4472e91a88e54f2d00e53bab01f079f2fe952668531a9be7f6214db5f
+updated_at: "2026-05-19"

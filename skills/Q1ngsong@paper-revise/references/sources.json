@@ -1,0 +1,21 @@
+{
+  "source_path_format": "github:research-method/... denotes a provenance pointer to original source files in the GitHub project; raw sources are not bundled for runtime.",
+  "primary_sources": [
+    {
+      "path": "github:research-method/how to revise/浅谈学术论文rebuttal - 知乎.pdf",
+      "used_for": ["peer review process", "know the reviewer before answering", "conference rebuttal forms", "objection types"]
+    },
+    {
+      "path": "github:research-method/how to revise/学术论文投稿与返修（Rebuttal）分享 - 知乎.pdf",
+      "used_for": ["revision principles", "response strategy", "reviewer concern categories"]
+    },
+    {
+      "path": "github:research-method/how to revise/国际期刊审稿流程与要点.pdf",
+      "used_for": ["journal review workflow", "reviewer evaluation dimensions", "AE/EiC decisions"]
+    },
+    {
+      "path": "github:research-method/how to use template/response letter/",
+      "used_for": ["response letter examples and formatting patterns"]
+    }
+  ]
+}

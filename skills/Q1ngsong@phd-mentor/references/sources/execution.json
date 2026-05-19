@@ -1,0 +1,21 @@
+{
+  "source_path_format": "github:research-method/... denotes a provenance pointer to original source files in the GitHub project; raw sources are not bundled for runtime.",
+  "primary_sources": [
+    {
+      "path": "github:research-method/how to think/博士生如何做科研.pdf",
+      "used_for": ["research process", "problem analysis", "doctoral work habits", "stage awareness"]
+    },
+    {
+      "path": "github:research-method/how to think/我做科研的几点体会.pdf",
+      "used_for": ["experiment records", "communication instead of closed-door trial-and-error", "literature and lab practice"]
+    },
+    {
+      "path": "github:research-method/how to think/读博心得分享 - 知乎.pdf",
+      "used_for": ["collaboration mindset", "self/other strengths", "timely stop-loss"]
+    },
+    {
+      "path": "github:research-method/how to think/从怀孕到出生——我的第一篇SCI论文的前世今生.pdf",
+      "used_for": ["failure diagnosis", "experimental-process details", "first-paper realism"]
+    }
+  ]
+}

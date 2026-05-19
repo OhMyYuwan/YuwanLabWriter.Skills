@@ -1,0 +1,21 @@
+{
+  "source_path_format": "github:research-method/... denotes a provenance pointer to original source files in the GitHub project; raw sources are not bundled for runtime.",
+  "primary_sources": [
+    {
+      "path": "github:research-method/how to think/课题毫无进展，科研压力大？西湖大学副校长为博士生答疑解惑.pdf",
+      "used_for": ["transition from knowledge receiver to independent scientist", "handling criticism", "emotion before response"]
+    },
+    {
+      "path": "github:research-method/how to think/读博心得分享 - 知乎.pdf",
+      "used_for": ["cooperation instead of forced competition", "positive feedback", "timely stop-loss"]
+    },
+    {
+      "path": "github:research-method/how to think/读博士之初时就能知道的20件事.pdf",
+      "used_for": ["work-life balance", "do not compare", "never struggle alone", "enjoy PhD"]
+    },
+    {
+      "path": "github:research-method/how to think/211高校副校长：我们的未来在哪里？值得每一位研究生读一读.pdf",
+      "used_for": ["failure with improvement rather than blind repetition", "doing the current choice well", "life beyond academic output"]
+    }
+  ]
+}

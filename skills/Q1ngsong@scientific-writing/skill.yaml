@@ -1,0 +1,21 @@
+id: Q1ngsong@scientific-writing
+name: scientific-writing
+display_name: 科学写作
+version: 1.0.0
+author:
+  github: Q1ngsong
+description: 面向科学论文和科研文本的写作与润色 Skill，覆盖结构诊断、段落组织、句子清晰度、摘要标题和图注等关键表面。
+tags:
+  - scientific-writing
+  - academic
+  - manuscript
+  - revision
+  - clarity
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: 5bf04581ce34e61a8f9492f38c831af3558c684a7def693896084f5477bd69dc
+updated_at: "2026-05-19"

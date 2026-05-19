@@ -1,0 +1,21 @@
+{
+  "source_path_format": "github:research-method/... denotes a provenance pointer to original source files in the GitHub project; raw sources are not bundled for runtime.",
+  "primary_sources": [
+    {
+      "path": "github:research-method/how to think/胡晓峰：浅谈科研课题中的“科学问题”.pdf",
+      "used_for": ["topic vs. problem", "scientific problem vs. practical problem", "five false-problem diagnostics"]
+    },
+    {
+      "path": "github:research-method/how to think/加州大学钱志云：那些计算机应用领域的脑洞是怎么产生的.pdf",
+      "used_for": ["idea-generation paradigms", "blank table method", "phenomenon-driven ideas", "tool-driven ideas", "negative results"]
+    },
+    {
+      "path": "github:research-method/how to think/讲堂 _ 霍强：创新研究到底怎么做？.pdf",
+      "used_for": ["start with why", "Pasteur quadrant", "Passion/Excellence/Impact fit"]
+    },
+    {
+      "path": "github:research-method/how to think/Coming up with New Ideas in Imaging.ppt",
+      "used_for": ["research idea generation in imaging and applied fields"]
+    }
+  ]
+}

@@ -15,5 +15,5 @@ visibility: public
 runtime:
   kind: instruction-only
 checksum:
-  sha256: 8c6e428be5109ec9fb296b75d9543093bdcc843d0e2ceae8dc4f829a3085dfbb
+  sha256: 064bccb7d5e155a5300c99c41b905735260a861ed8b384d167f6e9605ce8d289
 updated_at: "2026-05-17"
