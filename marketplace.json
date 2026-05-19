@@ -23,6 +23,28 @@
       "checksum_sha256": "8c6e428be5109ec9fb296b75d9543093bdcc843d0e2ceae8dc4f829a3085dfbb"
     },
     {
+      "id": "xyh39765-dot@literature-search",
+      "name": "literature-search",
+      "display_name": "文献查找",
+      "version": "1.0.0",
+      "author_github": "xyh39765-dot",
+      "description": "系统化文献综述编排工作流 - 从PubMed搜索、论文评估、引文遍历到结果整合，包含完整的研究会话管理和数据提取能力。原始出处：https://github.com/kthorn/research-superpower",
+      "tags": [
+        "literature",
+        "research",
+        "pubmed",
+        "systematic-review",
+        "citation"
+      ],
+      "license": "MIT",
+      "path": "skills/xyh39765-dot@literature-search",
+      "entry": "SKILL.md",
+      "skill_url": "skills/xyh39765-dot@literature-search/skill.yaml",
+      "entry_url": "skills/xyh39765-dot@literature-search/SKILL.md",
+      "readme_url": "skills/xyh39765-dot@literature-search/README.md",
+      "checksum_sha256": "938ee11f168aec496e36382a025dbaafaa14511d69241bfd1d616c214f369cd8"
+    },
+    {
       "id": "xyh39765-dot@prompts-collection",
       "name": "prompts-collection",
       "display_name": "写作提示词集合",
