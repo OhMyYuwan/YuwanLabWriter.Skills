@@ -1,0 +1,17 @@
+{
+  "skills": [
+    {
+      "author_github": "vercel-labs",
+      "skill_name": "find-skills",
+      "display_name": "Find Skills",
+      "description": "Discover useful Agent Skills from the Vercel Labs skills collection.",
+      "tags": [
+        "skills",
+        "discovery",
+        "recommended"
+      ],
+      "license": "MIT",
+      "npx_command": "npx skills add https://github.com/vercel-labs/skills --skill find-skills"
+    }
+  ]
+}

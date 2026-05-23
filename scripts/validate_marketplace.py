@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "skills"
+EXTERNAL_SKILLS = ROOT / "external-skills.json"
 ID_RE = re.compile(r"^[A-Za-z0-9_.-]+@[A-Za-z0-9_.-]+$")
 FORBIDDEN_SUFFIXES = {".py", ".js", ".ts", ".sh", ".bash", ".zsh", ".exe", ".bin"}
 
@@ -22,7 +23,9 @@ def main() -> None:
     errors: list[str] = []
     marketplace = json.loads((ROOT / "marketplace.json").read_text(encoding="utf-8"))
     seen: set[str] = set()
-    manifest_ids = {item["id"] for item in marketplace.get("skills", [])}
+    manifest_by_id = {item["id"]: item for item in marketplace.get("skills", [])}
+    manifest_ids = set(manifest_by_id)
+    external_ids = validate_external_skills(errors)
 
     for folder in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
         meta_path = folder / "skill.yaml"
@@ -59,6 +62,19 @@ def main() -> None:
         if entry_path.exists() and checksum and checksum != sha256_file(entry_path):
             errors.append(f"{folder}: checksum does not match {entry}")
 
+        catalog_entry = manifest_by_id.get(skill_id)
+        if catalog_entry:
+            source_url = str(catalog_entry.get("source_url") or "")
+            install_command = str(catalog_entry.get("install_command") or "")
+            if not source_url:
+                errors.append(f"{folder}: marketplace entry missing source_url")
+            if not install_command:
+                errors.append(f"{folder}: marketplace entry missing install_command")
+            elif source_url and source_url not in install_command:
+                errors.append(f"{folder}: install_command must include source_url")
+            if str(catalog_entry.get("skill_name") or "") != str(meta.get("name") or ""):
+                errors.append(f"{folder}: marketplace skill_name must match skill.yaml name")
+
         runtime_kind = str(meta.get("runtime_kind") or "")
         if runtime_kind != "instruction-only":
             errors.append(f"{folder}: runtime.kind must be instruction-only")
@@ -67,10 +83,10 @@ def main() -> None:
             if path.is_file() and path.suffix.lower() in FORBIDDEN_SUFFIXES:
                 errors.append(f"{folder}: executable/runtime file is not allowed in v1: {path.name}")
 
-    missing_from_manifest = seen - manifest_ids
+    missing_from_manifest = (seen | external_ids) - manifest_ids
     if missing_from_manifest:
         errors.append(f"marketplace.json missing ids: {sorted(missing_from_manifest)}")
-    orphaned_manifest = manifest_ids - seen
+    orphaned_manifest = manifest_ids - seen - external_ids
     if orphaned_manifest:
         errors.append(f"marketplace.json references missing ids: {sorted(orphaned_manifest)}")
 
@@ -83,6 +99,29 @@ def main() -> None:
 
 def sha256_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def validate_external_skills(errors: list[str]) -> set[str]:
+    if not EXTERNAL_SKILLS.exists():
+        return set()
+    payload = json.loads(EXTERNAL_SKILLS.read_text(encoding="utf-8"))
+    ids: set[str] = set()
+    for raw in payload.get("skills", []):
+        author = str(raw.get("author_github") or raw.get("author") or "").strip()
+        skill_name = str(raw.get("skill_name") or raw.get("name") or "").strip()
+        npx_command = str(raw.get("npx_command") or raw.get("install_command") or "").strip()
+        skill_id = f"{author}@{skill_name}" if author and skill_name else ""
+        if not author or not skill_name or not npx_command:
+            errors.append("external-skills.json entries require author_github, skill_name, and npx_command")
+            continue
+        if not ID_RE.match(skill_id):
+            errors.append(f"external-skills.json: invalid id {skill_id!r}")
+        if skill_id in ids:
+            errors.append(f"external-skills.json: duplicate id {skill_id}")
+        ids.add(skill_id)
+        if "skills add" not in npx_command:
+            errors.append(f"external-skills.json: {skill_id} npx_command must contain `skills add`")
+    return ids
 
 
 def read_author_arg() -> str:

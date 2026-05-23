@@ -78,6 +78,27 @@
       },
       "additionalProperties": true
     },
+    "install": {
+      "type": "object",
+      "properties": {
+        "repo_url": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "source_ref": {
+          "type": "string"
+        },
+        "skill_name": {
+          "type": "string"
+        },
+        "install_command": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
     "checksum": {
       "type": "object",
       "required": [
@@ -95,4 +116,3 @@
   },
   "additionalProperties": true
 }
-
