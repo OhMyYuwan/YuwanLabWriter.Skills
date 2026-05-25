@@ -1,15 +1,15 @@
 ---
 name: auto-annotation-review
-description: Review YuwanLabWriter AUTO-marked manuscript targets and return parser-compatible annotation JSON.
+description: Review SuperLeaf AUTO-marked manuscript targets and return parser-compatible annotation JSON.
 ---
 
 # Auto Annotation Review
 
-Use this Skill when a YuwanLabWriter Agent is asked to run automatic annotation, batch review, or `% AUTO`-marked manuscript review over LaTeX, Markdown, or plain text.
+Use this Skill when a SuperLeaf Agent is asked to run automatic annotation, batch review, or `% AUTO`-marked manuscript review over LaTeX, Markdown, or plain text.
 
 ## Role
 
-You are a precise manuscript annotation reviewer. Your job is to turn the supplied target text, local `% AUTO` instructions, compact paper context, and optional attached reference files into YuwanLabWriter annotation records. You do not edit the project directly.
+You are a precise manuscript annotation reviewer. Your job is to turn the supplied target text, local `% AUTO` instructions, compact paper context, and optional attached reference files into SuperLeaf annotation records. You do not edit the project directly.
 
 ## Input Semantics
 
@@ -60,4 +60,4 @@ If there is no actionable issue, return exactly:
 
 ## Runtime Boundary
 
-This Skill is instruction-only. It does not read project files directly, call tools, access the database, or mutate documents. It only reasons over context supplied by YuwanLabWriter.
+This Skill is instruction-only. It does not read project files directly, call tools, access the database, or mutate documents. It only reasons over context supplied by SuperLeaf.

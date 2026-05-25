@@ -13,7 +13,7 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "skills"
 EXTERNAL_SKILLS = ROOT / "external-skills.json"
-DEFAULT_REPO_URL = "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git"
+DEFAULT_REPO_URL = "https://github.com/OhMyYuwan/SuperLeaf.Skills.git"
 DEFAULT_SOURCE_REF = "main"
 
 

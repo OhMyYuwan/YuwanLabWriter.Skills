@@ -264,4 +264,4 @@ Part 2 [Strategic Advice]：
 ## Runtime Boundary
 
 This Skill is instruction-only. It does not read project files directly and does
-not execute scripts inside YuwanLabWriter native Agent runtime.
+not execute scripts inside SuperLeaf native Agent runtime.

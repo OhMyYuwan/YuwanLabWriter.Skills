@@ -1,8 +1,8 @@
-# YuwanLabWriter.Skills
+# SuperLeaf.Skills
 
-Official Skill catalog for YuwanLabWriter native Agents.
+Official Skill catalog for SuperLeaf native Agents.
 
-This repository is the trusted catalog source. YuwanLabWriter applications read
+This repository is the trusted catalog source. SuperLeaf applications read
 Skills from the `main` branch only. User and author submissions should arrive as
 pull requests, pass validation, and merge into `main` before they become visible
 in the Skill Market.
@@ -13,13 +13,13 @@ Enable GitHub Pages for this repository and serve from the `main` branch root.
 Then the marketplace can be consumed without cloning the repository:
 
 ```text
-https://<owner>.github.io/YuwanLabWriter.Skills/
-https://<owner>.github.io/YuwanLabWriter.Skills/marketplace.json
-https://<owner>.github.io/YuwanLabWriter.Skills/skills/GitHubUser@skill-name/skill.yaml
-https://<owner>.github.io/YuwanLabWriter.Skills/skills/GitHubUser@skill-name/SKILL.md
+https://<owner>.github.io/SuperLeaf.Skills/
+https://<owner>.github.io/SuperLeaf.Skills/marketplace.json
+https://<owner>.github.io/SuperLeaf.Skills/skills/GitHubUser@skill-name/skill.yaml
+https://<owner>.github.io/SuperLeaf.Skills/skills/GitHubUser@skill-name/SKILL.md
 ```
 
-YuwanLabWriter should sync `marketplace.json` from Pages, cache it briefly, and
+SuperLeaf should sync `marketplace.json` from Pages, cache it briefly, and
 download only the selected Skill files during install. Runtime Agent execution
 must read installed local Skills only; it should not call GitHub Pages.
 

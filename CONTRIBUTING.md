@@ -1,13 +1,13 @@
 # Contributing Skills
 
-Thanks for improving the YuwanLabWriter Skill catalog.
+Thanks for improving the SuperLeaf Skill catalog.
 
 ## Submission Flow
 
 1. Fork this repository.
 2. Add or update a folder under `skills/`.
 3. Name the folder as `GitHubUser@skill-name`.
-   - If you publish through YuwanLabWriter, the app derives `GitHubUser` from
+   - If you publish through SuperLeaf, the app derives `GitHubUser` from
      your connected GitHub account. You only choose the short Skill name.
    - If you submit manually, `GitHubUser` must match the GitHub account that
      opens the pull request.

@@ -8,7 +8,7 @@
       "display_name": "Annotation Training CSV",
       "version": "1.0.0",
       "author_github": "OhMyYuwan",
-      "description": "Convert YuwanLabWriter annotation training exports into compact CSV training datasets.",
+      "description": "Convert SuperLeaf annotation training exports into compact CSV training datasets.",
       "tags": [
         "annotation",
         "training",
@@ -20,12 +20,12 @@
       "skill_url": "skills/OhMyYuwan@annotation-training-csv/skill.yaml",
       "entry_url": "skills/OhMyYuwan@annotation-training-csv/SKILL.md",
       "readme_url": "skills/OhMyYuwan@annotation-training-csv/README.md",
-      "checksum_sha256": "064bccb7d5e155a5300c99c41b905735260a861ed8b384d167f6e9605ce8d289",
-      "repo_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git",
-      "source_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/OhMyYuwan@annotation-training-csv",
+      "checksum_sha256": "83453bbda7910e88407a266570c650f23f19e50cd799ff0dc64d758e952ec21b",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/OhMyYuwan@annotation-training-csv",
       "source_ref": "main",
       "skill_name": "annotation-training-csv",
-      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/OhMyYuwan@annotation-training-csv --agent codex --copy --yes",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/OhMyYuwan@annotation-training-csv --agent codex --copy --yes",
       "source_type": "local"
     },
     {
@@ -34,7 +34,7 @@
       "display_name": "Auto Annotation Review",
       "version": "1.0.0",
       "author_github": "OhMyYuwan",
-      "description": "Review YuwanLabWriter AUTO-marked manuscript targets and return annotation-only JSON.",
+      "description": "Review SuperLeaf AUTO-marked manuscript targets and return annotation-only JSON.",
       "tags": [
         "annotation",
         "auto",
@@ -47,12 +47,12 @@
       "skill_url": "skills/OhMyYuwan@auto-annotation-review/skill.yaml",
       "entry_url": "skills/OhMyYuwan@auto-annotation-review/SKILL.md",
       "readme_url": "skills/OhMyYuwan@auto-annotation-review/README.md",
-      "checksum_sha256": "2c4fbdba9e34d6dd99760c85b1d240a7ae5e687c06ddaedfeb217e82a9ddde01",
-      "repo_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git",
-      "source_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/OhMyYuwan@auto-annotation-review",
+      "checksum_sha256": "76fc0fe42d7279acd483f07bec1c26a800d591d0d9bcc09ec64557d34b0d66f0",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/OhMyYuwan@auto-annotation-review",
       "source_ref": "main",
       "skill_name": "auto-annotation-review",
-      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/OhMyYuwan@auto-annotation-review --agent codex --copy --yes",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/OhMyYuwan@auto-annotation-review --agent codex --copy --yes",
       "source_type": "local"
     },
     {
@@ -76,11 +76,11 @@
       "entry_url": "skills/Q1ngsong@paper-revise/SKILL.md",
       "readme_url": "skills/Q1ngsong@paper-revise/README.md",
       "checksum_sha256": "b2b5b4f4472e91a88e54f2d00e53bab01f079f2fe952668531a9be7f6214db5f",
-      "repo_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git",
-      "source_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/Q1ngsong@paper-revise",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/Q1ngsong@paper-revise",
       "source_ref": "main",
       "skill_name": "paper-revise",
-      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/Q1ngsong@paper-revise --agent codex --copy --yes",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/Q1ngsong@paper-revise --agent codex --copy --yes",
       "source_type": "local"
     },
     {
@@ -104,11 +104,11 @@
       "entry_url": "skills/Q1ngsong@phd-mentor/SKILL.md",
       "readme_url": "skills/Q1ngsong@phd-mentor/README.md",
       "checksum_sha256": "329e7a2d27664fc48e3bdef1a87cf1b878f404be024c294b8fc650bdc509445b",
-      "repo_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git",
-      "source_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/Q1ngsong@phd-mentor",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/Q1ngsong@phd-mentor",
       "source_ref": "main",
       "skill_name": "phd-mentor",
-      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/Q1ngsong@phd-mentor --agent codex --copy --yes",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/Q1ngsong@phd-mentor --agent codex --copy --yes",
       "source_type": "local"
     },
     {
@@ -132,11 +132,11 @@
       "entry_url": "skills/Q1ngsong@scientific-writing/SKILL.md",
       "readme_url": "skills/Q1ngsong@scientific-writing/README.md",
       "checksum_sha256": "5bf04581ce34e61a8f9492f38c831af3558c684a7def693896084f5477bd69dc",
-      "repo_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git",
-      "source_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/Q1ngsong@scientific-writing",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/Q1ngsong@scientific-writing",
       "source_ref": "main",
       "skill_name": "scientific-writing",
-      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/Q1ngsong@scientific-writing --agent codex --copy --yes",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/Q1ngsong@scientific-writing --agent codex --copy --yes",
       "source_type": "local"
     },
     {
@@ -160,11 +160,11 @@
       "entry_url": "skills/xyh39765-dot@literature-search/SKILL.md",
       "readme_url": "skills/xyh39765-dot@literature-search/README.md",
       "checksum_sha256": "938ee11f168aec496e36382a025dbaafaa14511d69241bfd1d616c214f369cd8",
-      "repo_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git",
-      "source_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/xyh39765-dot@literature-search",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/xyh39765-dot@literature-search",
       "source_ref": "main",
       "skill_name": "literature-search",
-      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/xyh39765-dot@literature-search --agent codex --copy --yes",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/xyh39765-dot@literature-search --agent codex --copy --yes",
       "source_type": "local"
     },
     {
@@ -191,11 +191,11 @@
       "entry_url": "skills/xyh39765-dot@ml-paper-writing/SKILL.md",
       "readme_url": "skills/xyh39765-dot@ml-paper-writing/README.md",
       "checksum_sha256": "a5e359641c92659e479659236327c7c477555c3103e161f39afd394129559890",
-      "repo_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git",
-      "source_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/xyh39765-dot@ml-paper-writing",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/xyh39765-dot@ml-paper-writing",
       "source_ref": "main",
       "skill_name": "ml-paper-writing",
-      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/xyh39765-dot@ml-paper-writing --agent codex --copy --yes",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/xyh39765-dot@ml-paper-writing --agent codex --copy --yes",
       "source_type": "local"
     },
     {
@@ -219,11 +219,11 @@
       "entry_url": "skills/xyh39765-dot@paper-self-review/SKILL.md",
       "readme_url": "skills/xyh39765-dot@paper-self-review/README.md",
       "checksum_sha256": "fe31be20fd3200e1501827fa078f7a84a309e6bbe987689577482f290043c4a4",
-      "repo_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git",
-      "source_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/xyh39765-dot@paper-self-review",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/xyh39765-dot@paper-self-review",
       "source_ref": "main",
       "skill_name": "paper-self-review",
-      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/xyh39765-dot@paper-self-review --agent codex --copy --yes",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/xyh39765-dot@paper-self-review --agent codex --copy --yes",
       "source_type": "local"
     },
     {
@@ -246,12 +246,12 @@
       "skill_url": "skills/xyh39765-dot@prompts-collection/skill.yaml",
       "entry_url": "skills/xyh39765-dot@prompts-collection/SKILL.md",
       "readme_url": "skills/xyh39765-dot@prompts-collection/README.md",
-      "checksum_sha256": "d27afaad40b547261cd6936ae5eb69ff17bbfbc16039e69daf87221c4f781b0e",
-      "repo_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills.git",
-      "source_url": "https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/xyh39765-dot@prompts-collection",
+      "checksum_sha256": "c5c867ca5e570bb23c5652ad6b65fd76eb9bed64b5df796de4a506ad5c9b365b",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/xyh39765-dot@prompts-collection",
       "source_ref": "main",
       "skill_name": "prompts-collection",
-      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/YuwanLabWriter.Skills/tree/main/skills/xyh39765-dot@prompts-collection --agent codex --copy --yes",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/xyh39765-dot@prompts-collection --agent codex --copy --yes",
       "source_type": "local"
     },
     {

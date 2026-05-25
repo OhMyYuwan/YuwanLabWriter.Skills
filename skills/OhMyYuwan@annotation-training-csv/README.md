@@ -1,6 +1,6 @@
 # Annotation Training CSV
 
-Converts YuwanLabWriter annotation training exports into compact CSV rows.
+Converts SuperLeaf annotation training exports into compact CSV rows.
 
 This marketplace package is instruction-only. If a future app flow adds a
 deterministic export converter, it should be implemented as a separate trusted

@@ -4,7 +4,7 @@ display_name: Auto Annotation Review
 version: 1.0.0
 author:
   github: OhMyYuwan
-description: Review YuwanLabWriter AUTO-marked manuscript targets and return annotation-only JSON.
+description: Review SuperLeaf AUTO-marked manuscript targets and return annotation-only JSON.
 tags:
   - annotation
   - auto
@@ -16,5 +16,5 @@ visibility: public
 runtime:
   kind: instruction-only
 checksum:
-  sha256: 2c4fbdba9e34d6dd99760c85b1d240a7ae5e687c06ddaedfeb217e82a9ddde01
+  sha256: 76fc0fe42d7279acd483f07bec1c26a800d591d0d9bcc09ec64557d34b0d66f0
 updated_at: "2026-05-20"
