@@ -12,6 +12,355 @@
       ],
       "license": "MIT",
       "npx_command": "npx skills add https://github.com/vercel-labs/skills --skill find-skills"
+    },
+    {
+      "author_github": "Master-cai",
+      "skill_name": "research-paper-writing",
+      "display_name": "Research Paper Writing",
+      "description": "ML/CV/NLP paper-writing Skill for section structure, paragraph flow, reviewer-facing presentation, figure/table polish, claim-support checks, and pre-submission self-review.",
+      "tags": [
+        "academic-writing",
+        "paper-writing",
+        "ml",
+        "cv",
+        "nlp",
+        "submission"
+      ],
+      "license": "MIT",
+      "npx_command": "npx skills add Master-cai/Research-Paper-Writing-Skills@research-paper-writing"
+    },
+    {
+      "author_github": "davila7",
+      "skill_name": "scientific-writing",
+      "display_name": "Scientific Writing",
+      "description": "Scientific writing Skill from claude-code-templates for academic prose, manuscript sections, and scholarly writing workflows.",
+      "tags": [
+        "scientific-writing",
+        "academic-writing",
+        "manuscript",
+        "paper"
+      ],
+      "license": "MIT",
+      "npx_command": "npx skills add davila7/claude-code-templates@scientific-writing"
+    },
+    {
+      "author_github": "EvoScientist",
+      "skill_name": "paper-planning",
+      "display_name": "Paper Planning",
+      "description": "Pre-writing planning Skill for academic papers: story design, contribution framing, experiment planning, figure design, and writing timeline management.",
+      "tags": [
+        "paper-planning",
+        "research",
+        "experiments",
+        "figures",
+        "academic"
+      ],
+      "license": "Apache-2.0",
+      "npx_command": "npx skills add EvoScientist/EvoSkills@paper-planning"
+    },
+    {
+      "author_github": "EvoScientist",
+      "skill_name": "paper-writing",
+      "display_name": "Paper Writing",
+      "description": "Academic paper-writing Skill with an 11-step section workflow, LaTeX templates, and tactics for Abstract, Introduction, Method, Experiments, Related Work, Conclusion, and supplementary material.",
+      "tags": [
+        "paper-writing",
+        "academic-writing",
+        "latex",
+        "research",
+        "submission"
+      ],
+      "license": "Apache-2.0",
+      "npx_command": "npx skills add EvoScientist/EvoSkills@paper-writing"
+    },
+    {
+      "author_github": "EvoScientist",
+      "skill_name": "paper-review",
+      "display_name": "Paper Review",
+      "description": "Adversarial self-review Skill for academic papers, covering contribution sufficiency, clarity, results quality, test completeness, method design, unsupported claims, and reviewer-risk simulation.",
+      "tags": [
+        "paper-review",
+        "self-review",
+        "submission-readiness",
+        "academic"
+      ],
+      "license": "Apache-2.0",
+      "npx_command": "npx skills add EvoScientist/EvoSkills@paper-review"
+    },
+    {
+      "author_github": "EvoScientist",
+      "skill_name": "paper-rebuttal",
+      "display_name": "Paper Rebuttal",
+      "description": "Rebuttal-writing Skill for diagnosing reviewer comments, mapping scores and concerns, identifying response strategy, and drafting author responses.",
+      "tags": [
+        "rebuttal",
+        "review-response",
+        "academic",
+        "peer-review"
+      ],
+      "license": "Apache-2.0",
+      "npx_command": "npx skills add EvoScientist/EvoSkills@paper-rebuttal"
+    },
+    {
+      "author_github": "EvoScientist",
+      "skill_name": "paper-navigator",
+      "display_name": "Paper Navigator",
+      "description": "Paper discovery and reading Skill using Semantic Scholar and arXiv-style workflows for paper search, related work, citation analysis, recent advances, and baseline discovery.",
+      "tags": [
+        "paper-reading",
+        "literature-search",
+        "arxiv",
+        "semantic-scholar",
+        "related-work"
+      ],
+      "license": "Apache-2.0",
+      "npx_command": "npx skills add EvoScientist/EvoSkills@paper-navigator"
+    },
+    {
+      "author_github": "EvoScientist",
+      "skill_name": "research-survey",
+      "display_name": "Research Survey",
+      "description": "Literature-survey Skill for structured survey reports, taxonomy-based method analysis, comparative tables, LaTeX formalization, and dense citations.",
+      "tags": [
+        "literature-review",
+        "survey",
+        "taxonomy",
+        "research",
+        "academic"
+      ],
+      "license": "Apache-2.0",
+      "npx_command": "npx skills add EvoScientist/EvoSkills@research-survey"
+    },
+    {
+      "author_github": "bahayonghang",
+      "skill_name": "latex-paper-en",
+      "display_name": "LaTeX Paper EN",
+      "description": "English LaTeX paper assistant for existing conference or journal papers: compile, venue formatting, bibliography, grammar, logic, abstracts, figures, tables, pseudocode, related work, translation, and submission readiness.",
+      "tags": [
+        "latex",
+        "academic-writing",
+        "paper-polish",
+        "submission",
+        "bibliography"
+      ],
+      "license": "",
+      "npx_command": "npx skills add bahayonghang/academic-writing-skills@latex-paper-en"
+    },
+    {
+      "author_github": "bahayonghang",
+      "skill_name": "paper-audit",
+      "display_name": "Paper Audit",
+      "description": "Reviewer-style audit and submission gate for academic papers in TeX, Typst, or PDF, with blocker triage, readiness verdicts, and revision roadmaps.",
+      "tags": [
+        "paper-audit",
+        "self-review",
+        "peer-review",
+        "submission-readiness"
+      ],
+      "license": "",
+      "npx_command": "npx skills add bahayonghang/academic-writing-skills@paper-audit"
+    },
+    {
+      "author_github": "bahayonghang",
+      "skill_name": "bib-search-citation",
+      "display_name": "Bib Search Citation",
+      "description": "Local BibTeX/BibLaTeX search and citation Skill for Zotero exports, topic/author/year/venue filters, DOI/arXiv lookup, and LaTeX or Typst citation snippets.",
+      "tags": [
+        "citation",
+        "bibtex",
+        "zotero",
+        "latex",
+        "typst"
+      ],
+      "license": "",
+      "npx_command": "npx skills add bahayonghang/academic-writing-skills@bib-search-citation"
+    },
+    {
+      "author_github": "lingzhi227",
+      "skill_name": "literature-review",
+      "display_name": "Literature Review",
+      "description": "Literature-review Skill using multi-perspective dialogue simulation and grounded Q&A to synthesize structured knowledge for research projects.",
+      "tags": [
+        "literature-review",
+        "research",
+        "survey",
+        "related-work"
+      ],
+      "license": "",
+      "npx_command": "npx skills add lingzhi227/agent-research-skills@literature-review"
+    },
+    {
+      "author_github": "lingzhi227",
+      "skill_name": "citation-management",
+      "display_name": "Citation Management",
+      "description": "BibTeX citation-management Skill for harvesting missing citations, validating cite keys, deduplicating entries, and formatting bibliographies for LaTeX papers.",
+      "tags": [
+        "citation",
+        "bibtex",
+        "latex",
+        "bibliography",
+        "academic"
+      ],
+      "license": "",
+      "npx_command": "npx skills add lingzhi227/agent-research-skills@citation-management"
+    },
+    {
+      "author_github": "lingzhi227",
+      "skill_name": "rebuttal-writing",
+      "display_name": "Rebuttal Writing",
+      "description": "Point-by-point rebuttal Skill for reviewer-comment extraction, evidence-backed responses, and structured author-response documents.",
+      "tags": [
+        "rebuttal",
+        "review-response",
+        "peer-review",
+        "academic"
+      ],
+      "license": "",
+      "npx_command": "npx skills add lingzhi227/agent-research-skills@rebuttal-writing"
+    },
+    {
+      "author_github": "bytedance",
+      "skill_name": "academic-paper-review",
+      "display_name": "Academic Paper Review",
+      "description": "Academic paper-review Skill from DeerFlow for draft critique, quality assessment, and reviewer-style feedback.",
+      "tags": [
+        "paper-review",
+        "academic",
+        "peer-review",
+        "self-review"
+      ],
+      "license": "MIT",
+      "npx_command": "npx skills add bytedance/deer-flow@academic-paper-review"
+    },
+    {
+      "author_github": "karpathy",
+      "skill_name": "read-arxiv-paper",
+      "display_name": "Read arXiv Paper",
+      "description": "arXiv-paper reading Skill from nanochat for reading and summarizing papers from arXiv URLs.",
+      "tags": [
+        "arxiv",
+        "paper-reading",
+        "literature",
+        "research"
+      ],
+      "license": "MIT",
+      "npx_command": "npx skills add karpathy/nanochat@read-arxiv-paper"
+    },
+    {
+      "author_github": "langchain-ai",
+      "skill_name": "arxiv-search",
+      "display_name": "arXiv Search",
+      "description": "arXiv search Skill from DeepAgents for discovering papers and literature around research topics.",
+      "tags": [
+        "arxiv",
+        "literature-search",
+        "research",
+        "papers"
+      ],
+      "license": "MIT",
+      "npx_command": "npx skills add langchain-ai/deepagents@arxiv-search"
+    },
+    {
+      "author_github": "google-deepmind",
+      "skill_name": "literature-search-arxiv",
+      "display_name": "Literature Search arXiv",
+      "description": "Google DeepMind Science Skill for arXiv literature search, metadata and abstract extraction, and full-text PDF or HTML retrieval.",
+      "tags": [
+        "arxiv",
+        "literature-search",
+        "science",
+        "research"
+      ],
+      "license": "Apache-2.0",
+      "npx_command": "npx skills add google-deepmind/science-skills@literature-search-arxiv"
+    },
+    {
+      "author_github": "firecrawl",
+      "skill_name": "firecrawl-research-papers",
+      "display_name": "Firecrawl Research Papers",
+      "description": "Firecrawl workflow Skill for finding and synthesizing research papers, whitepapers, PDFs, technical reports, and academic sources into sourced literature summaries.",
+      "tags": [
+        "literature-review",
+        "research-papers",
+        "pdf",
+        "deep-research"
+      ],
+      "license": "ISC",
+      "npx_command": "npx skills add firecrawl/firecrawl-workflows@firecrawl-research-papers"
+    },
+    {
+      "author_github": "trailofbits",
+      "skill_name": "solana-vulnerability-scanner",
+      "display_name": "Solana Vulnerability Scanner",
+      "description": "Trail of Bits security Skill for Solana vulnerability detection and audit workflows.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "audit",
+        "solana",
+        "blockchain"
+      ],
+      "license": "CC-BY-SA-4.0",
+      "npx_command": "npx skills add trailofbits/skills@solana-vulnerability-scanner"
+    },
+    {
+      "author_github": "trailofbits",
+      "skill_name": "cosmos-vulnerability-scanner",
+      "display_name": "Cosmos Vulnerability Scanner",
+      "description": "Trail of Bits security Skill for Cosmos vulnerability detection and audit workflows.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "audit",
+        "cosmos",
+        "blockchain"
+      ],
+      "license": "CC-BY-SA-4.0",
+      "npx_command": "npx skills add trailofbits/skills@cosmos-vulnerability-scanner"
+    },
+    {
+      "author_github": "trailofbits",
+      "skill_name": "substrate-vulnerability-scanner",
+      "display_name": "Substrate Vulnerability Scanner",
+      "description": "Trail of Bits security Skill for Substrate vulnerability detection and audit workflows.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "audit",
+        "substrate",
+        "blockchain"
+      ],
+      "license": "CC-BY-SA-4.0",
+      "npx_command": "npx skills add trailofbits/skills@substrate-vulnerability-scanner"
+    },
+    {
+      "author_github": "trailofbits",
+      "skill_name": "cairo-vulnerability-scanner",
+      "display_name": "Cairo Vulnerability Scanner",
+      "description": "Trail of Bits security Skill for Cairo vulnerability detection and audit workflows.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "audit",
+        "cairo",
+        "blockchain"
+      ],
+      "license": "CC-BY-SA-4.0",
+      "npx_command": "npx skills add trailofbits/skills@cairo-vulnerability-scanner"
+    },
+    {
+      "author_github": "anthropics",
+      "skill_name": "skill-creator",
+      "display_name": "Skill Creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "tags": [
+        "skills",
+        "skill-creation",
+        "evals",
+        "optimization"
+      ],
+      "license": "MIT",
+      "npx_command": "npx skills add https://github.com/anthropics/skills --skill skill-creator"
     }
   ]
 }

@@ -20,3 +20,5 @@ temp/
 *.log
 *.tmp
 
+skills-lock.json
+.agents
